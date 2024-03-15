@@ -4,7 +4,6 @@ import VideoCart from './VideoCart';
 import { Link } from 'react-router-dom';
 const VideoContainer = () => {
   const [video, setVideo] = useState([]);
-  console.log(video);
   useEffect(()=>{
     getVideos();
   },[]);
